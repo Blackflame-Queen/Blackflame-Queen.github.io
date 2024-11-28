@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fortune or Folly: The Inner Sanctum</title>
+    <style>
+        .transparent-rectangle {
+            position: absolute; /* Position it relative to the page */
+            top: 0;             /* Align to the top */
+            left: 0;            /* Align to the left */
+            width: 100%;       /* Full width */
+            height: 75.33%;    /* Cover the upper part of the page */
+            background-color: rgba(0, 0, 0, 0.5); /* Transparent black background */
+            z-index: -1; /* Place it behind other content */
+        }
+        .container {
+            max-width: 500px; /* Maximum width of the container */
+            margin: auto;
+            padding: 20px;
+            background: rgb(228, 194, 0);
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            position: relative; /* To position it relative to the current context */
+            z-index: 1; /* Ensure it appears above the transparent rectangle */
+            margin-top: 20px; /* Add a bit of space above the container */
+        }
+        textarea {
+            width: calc(100% - 20px); /* Make it slightly narrower */
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box; /* Ensure padding is included in width */
+        }
+        input[type="submit"] {
+            background-color: #550000;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 100%; /* 100% of the containing div */
+        }
+        input[type="submit"]:hover {
+            background-color: #c40303;
+        }
+    </style>
+</head>
+<body class="background-page17">
+    <div class="transparent-rectangle"></div>
+    <h1>Capturing the Dragon's Eye</h1>
+    <p>
+        "I love her, but I feel like we're on different wavelengths..."<br>
+        "If I just keep studying, I could become a dragon like her, and then we could be together!"<br>
+        You suggest that she should just speak in dragon-tongue to Griselda, seems pretty obvious.<br>
+        "Oh...maybe you're right... I probably have a tome on dragonic somewhere around here..."<br>
+        Sometimes we get so caught up in one notion, that we don’t consider the obvious, even when it's right in front of our faces.<br>
+        She looks almost disappointed for a moment, but finds a dragonic tome in the clutter and turns away to begin studying.<br>
+        "Thanks, and here, you can have this pile of gold, I'll contain it in this enchanted bag of holding."<br>
+        "Oh and this." She hands you an amulet with a red gem embedded in it. Then she opens a portal for you to leave.<br>
+        You return home with a bulging sack of treasure in tow and don the amulet. She didn't remark on it, but you begin to feel...different...<br>
+        What happens next? Who knows!
+    </p>
+    <p>
+        <a href="index.html">Thanks for Playing!</a>
+    </p>
+
+    <!-- Feedback Form -->
+    <div class="container">
+        <h1>Story Suggestions</h1>
+        <form action="#" method="post">
+            <label for="feedback">Any feedback is appreciated!:</label>
+            <textarea id="feedback" name="feedback" rows="4" required></textarea>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+</body>
+</html>

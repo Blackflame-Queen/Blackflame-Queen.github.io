@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0; /* Remove default margin */
+            padding: 0; /* Remove default padding */
+        }
+        .transparent-rectangle {
+            position: absolute; /* Position it relative to the page */
+            top: 0;             /* Align to the top */
+            left: 0;            /* Align to the left */
+            width: 100%;       /* Full width */
+            height: 34.5%;    /* Cover the upper third of the page */
+            background-color: rgba(0, 0, 0, 0.5); /* Transparent black background */
+            z-index: -1; /* Place it behind other content */
+        }
+        h2 {
+            font-size: 36px; /* Adjust the size as needed */
+        }
+    </style>
+    <title>Fortune or Folly: A Choose Your Own Adventure Tale</title>
+</head>
+<body class="background-page1">
+    <div class="transparent-rectangle"></div>
+    <h1>Fortune or Folly</h1>
+    <h2>A Choose-Your-Own-Adventure Tale</h2>
+    <h3><p>You stand at the entrance of a damp cave. Some say it holds a great treasure, or was it terror? 
+        <br> Do you enter the cave, or turn your gaze towards the nearby forest instead?<br></p></h3>
+    
+    <p>
+        <a href="page2.html">Enter the Cave</a> | 
+        <a href="page3.html">Explore the Forest</a>
+    </p>
+</body>
+</html>
