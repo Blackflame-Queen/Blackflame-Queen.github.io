@@ -2,9 +2,6 @@
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $rating = $_POST['rating'];
     $feedback = $_POST['feedback'];
-if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
-        http_response_code(405);
-        exit('Method Not Allowed');
     }
     
     $to = 'blackflameit@gmail.com'; // Replace with your email address
