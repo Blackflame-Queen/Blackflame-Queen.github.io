@@ -39,7 +39,7 @@
             box-sizing: border-box; 
             font-size: 1.8em; 
             color: black; 
-            font-family: 'EB Garamond', serif; /* Set font to EB Garamond */
+            font-family: 'EB Garamond', serif; 
         }
         input[type="text"], input[type="email"] {
             width: calc(100% - 20px); 
@@ -50,7 +50,7 @@
             box-sizing: border-box; 
             font-size: 1.8em; 
             color: black; 
-            font-family: 'EB Garamond', serif; /* Set font to EB Garamond */
+            font-family: 'EB Garamond', serif; 
         }
         input[type="submit"] {
             background-color: #550000;
@@ -106,8 +106,7 @@
     <div class="container">
         <h1>Story Suggestions</h1>
 
-        <form action="send_feedback.php" method="post"> <!-- Updated form action -->
-            <label for="email">Enter your email:</label>
+        <form action="https://formspree.io/f/mbljpjzb" method="POST"> 
             <input type="email" id="email" name="email" required placeholder="Your email address">
 
             <table>
