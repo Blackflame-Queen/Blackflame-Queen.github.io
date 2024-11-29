@@ -39,6 +39,18 @@
             box-sizing: border-box; 
             font-size: 1.8em; 
             color: black; 
+            font-family: 'EB Garamond', serif; /* Set font to EB Garamond */
+        }
+        input[type="text"], input[type="email"] {
+            width: calc(100% - 20px); 
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px; 
+            box-sizing: border-box; 
+            font-size: 1.8em; 
+            color: black; 
+            font-family: 'EB Garamond', serif; /* Set font to EB Garamond */
         }
         input[type="submit"] {
             background-color: #550000;
@@ -94,13 +106,16 @@
     <div class="container">
         <h1>Story Suggestions</h1>
 
-        <table>
-            <tr>
-                <th colspan="2">Rate the Story :)</th>
-            </tr>
-            <tr>
-                <td>
-                    <form action="send_feedback.php" method="post"> <!-- Updated form action -->
+        <form action="send_feedback.php" method="post"> <!-- Updated form action -->
+            <label for="email">Enter your email:</label>
+            <input type="email" id="email" name="email" required placeholder="Your email address">
+
+            <table>
+                <tr>
+                    <th colspan="2">Rate the Story :)</th>
+                </tr>
+                <tr>
+                    <td>
                         <label>
                             <input type="radio" name="rating" value="1"> Terrible
                         </label><br>
@@ -113,11 +128,11 @@
                         <label>
                             <input type="radio" name="rating" value="4"> Great!
                         </label><br>
-                </td>
-            </tr>
-        </table>
-        <textarea id="feedback" name="feedback" rows="4" required></textarea>
-        <input type="submit" value="Submit">
+                    </td>
+                </tr>
+            </table>
+            <textarea id="feedback" name="feedback" rows="4" required placeholder="Feedback welcome here :)"></textarea>
+            <input type="submit" value="Submit">
         </form>
     </div>
 
