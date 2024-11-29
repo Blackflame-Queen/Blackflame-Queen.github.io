@@ -117,7 +117,7 @@ body {
     top: 0;             /* Align to the top */
     left: 0;            /* Align to the left */
     width: 100%;       /* Full width */
-    height: 33.33%;    /* Cover the upper third of the page */
+    height: 50%;    /* Cover the upper third of the page */
     background-color: rgba(0, 0, 0, 0.5); /* Transparent black background */
     z-index: -1; /* Place it behind other content */
 }
