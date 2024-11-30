@@ -106,6 +106,34 @@ body {
     background-repeat: no-repeat; /* Prevents the image from repeating */
     background-position: fill; /* Centers the image */
 }
+.background-page18 {
+    background-image: url('images/background18.jpg'); /* Path to your background image */
+    background-size: cover; /* Ensures the image covers the entire element */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: fill; /* Centers the image */
+}
+.background-page19 {
+    background-image: url('images/background19.jpg'); /* Path to your background image */
+    background-size: cover; /* Ensures the image covers the entire element */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: fill; /* Centers the image */
+}
+.background-page22 {
+    background-image: url('images/background22.jpg'); /* Path to your background image */
+    background-size: cover; /* Ensures the image covers the entire element */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: fill; /* Centers the image */
+}.background-page23 {
+    background-image: url('images/background23.jpg'); /* Path to your background image */
+    background-size: cover; /* Ensures the image covers the entire element */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: fill; /* Centers the image */
+}.background-page {
+    background-image: url('images/background19.jpg'); /* Path to your background image */
+    background-size: cover; /* Ensures the image covers the entire element */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: fill; /* Centers the image */
+}
 /* styles.css */
 body {
     margin: 0; /* Remove default margin */
