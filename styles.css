@@ -2,6 +2,7 @@ body {
     
     font-family: 'Garamond', serif;
     background-color: rgb(0, 26, 77);
+    background-attachment: scroll;
     color: #fdfdfd;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
     margin: 0;
@@ -11,19 +12,22 @@ body {
 
 .background-page1 {
     background-image: url('images/background1.jpg');
-    background-size: cover;
+    background-attachment: scroll;
+    background-size: 100%;
     background-repeat: no-repeat; 
     background-position: fill; 
 }
 
 .background-page2 {
     background-image: url('images/background2.jpg');
+    background-attachment: scroll;
     background-size: cover; 
     background-repeat: no-repeat; 
     background-position: fill; 
 }
 .background-page3 {
     background-image: url('images/background3.jpg');
+    background-attachment: scroll;
     background-size: cover; 
     background-repeat: no-repeat; 
     background-position: fill; 
@@ -32,7 +36,7 @@ body {
     background-image: url('images/background4.jpg');
     background-size: cover; 
     background-repeat: no-repeat; 
-    background-position: fill; 
+    background-position: fill;
 }
 .background-page5 {
     background-image: url('images/background5.jpg');
@@ -49,90 +53,105 @@ body {
 .background-page7 {
     background-image: url('images/background7.jpg');
     background-size: cover; 
+    background-attachment: scroll;
     background-repeat: no-repeat; 
     background-position: fill; 
 }
 .background-page9 {
     background-image: url('images/background9.jpg');
     background-size: cover; 
+    background-attachment: scroll;
     background-repeat: no-repeat; 
     background-position: fill; 
 }
 .background-page10 {
     background-image: url('images/background10.jpg');
     background-size: cover; 
+    background-attachment: scroll;
     background-repeat: no-repeat; 
     background-position: fill; 
 }
 .background-page11 {
     background-image: url('images/background11.jpg');
     background-size: cover; 
+    background-attachment: scroll;
     background-repeat: no-repeat; 
     background-position: fill; 
 }
 .background-page12 {
     background-image: url('images/background12.jpg');
     background-size: cover; 
+    background-attachment: scroll;
     background-repeat: no-repeat; 
     background-position: fill; 
 }
 .background-page13 {
     background-image: url('images/background13.jpg');
     background-size: cover; 
+    background-attachment: scroll;
     background-repeat: no-repeat; 
     background-position: fill; 
 }
 .background-page14 {
     background-image: url('images/background14.jpg');
     background-size: cover; 
+    background-attachment: scroll;
     background-repeat: no-repeat; 
     background-position: fill; 
 }
 .background-page15 {
     background-image: url('images/background15.jpg');
     background-size: cover; 
+    background-attachment: scroll;
     background-repeat: no-repeat; 
     background-position: fill; 
 }
 .background-page16 {
     background-image: url('images/background16.jpg');
     background-size: cover; 
+    background-attachment: scroll;
     background-repeat: no-repeat; 
     background-position: fill; 
 }
 .background-page17 {
     background-image: url('images/background17.jpg');
     background-size: cover; 
+    background-attachment: scroll;
     background-repeat: no-repeat; 
     background-position: fill; 
 }
 .background-page18 {
     background-image: url('images/background18.jpg');
     background-size: cover; 
+    background-attachment: scroll;
     background-repeat: no-repeat; 
     background-position: fill; 
 }
 .background-page19 {
     background-image: url('images/background19.jpg');
     background-size: cover; 
+    background-attachment: scroll;
     background-repeat: no-repeat; 
     background-position: fill; 
 }
 .background-page22 {
     background-image: url('images/background22.jpg');
     background-size: cover; 
+    background-attachment: scroll;
     background-repeat: no-repeat; 
     background-position: fill; 
 }
 .background-page23 {
     background-image: url('images/background23.jpg');
     background-size: cover; 
+    background-attachment: scroll;
     background-repeat: no-repeat; 
     background-position: fill; 
 }
 .background-page {
     background-image: url('images/background19.jpg');
     background-size: cover; 
+    background-attachment: scroll;
     background-repeat: no-repeat; 
     background-position: fill; 
 }
@@ -201,4 +220,5 @@ footer {
         padding: 10px 20px; 
         font-size: 1em; 
     }
+
 }
