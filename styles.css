@@ -1,0 +1,224 @@
+body {
+    
+    font-family: 'Garamond', serif;
+    background-color: rgb(0, 26, 77);
+    background-attachment: scroll;
+    color: #fdfdfd;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+.background-page1 {
+    background-image: url('images/background1.jpg');
+    background-attachment: scroll;
+    background-size: 100%;
+    background-repeat: no-repeat; 
+    background-position: fill; 
+}
+
+.background-page2 {
+    background-image: url('images/background2.jpg');
+    background-attachment: scroll;
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: fill; 
+}
+.background-page3 {
+    background-image: url('images/background3.jpg');
+    background-attachment: scroll;
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: fill; 
+}
+.background-page4 {
+    background-image: url('images/background4.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: fill;
+}
+.background-page5 {
+    background-image: url('images/background5.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: fill; 
+}
+.background-page6 {
+    background-image: url('images/background6.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: fill; 
+}
+.background-page7 {
+    background-image: url('images/background7.jpg');
+    background-size: cover; 
+    background-attachment: scroll;
+    background-repeat: no-repeat; 
+    background-position: fill; 
+}
+.background-page9 {
+    background-image: url('images/background9.jpg');
+    background-size: cover; 
+    background-attachment: scroll;
+    background-repeat: no-repeat; 
+    background-position: fill; 
+}
+.background-page10 {
+    background-image: url('images/background10.jpg');
+    background-size: cover; 
+    background-attachment: scroll;
+    background-repeat: no-repeat; 
+    background-position: fill; 
+}
+.background-page11 {
+    background-image: url('images/background11.jpg');
+    background-size: cover; 
+    background-attachment: scroll;
+    background-repeat: no-repeat; 
+    background-position: fill; 
+}
+.background-page12 {
+    background-image: url('images/background12.jpg');
+    background-size: cover; 
+    background-attachment: scroll;
+    background-repeat: no-repeat; 
+    background-position: fill; 
+}
+.background-page13 {
+    background-image: url('images/background13.jpg');
+    background-size: cover; 
+    background-attachment: scroll;
+    background-repeat: no-repeat; 
+    background-position: fill; 
+}
+.background-page14 {
+    background-image: url('images/background14.jpg');
+    background-size: cover; 
+    background-attachment: scroll;
+    background-repeat: no-repeat; 
+    background-position: fill; 
+}
+.background-page15 {
+    background-image: url('images/background15.jpg');
+    background-size: cover; 
+    background-attachment: scroll;
+    background-repeat: no-repeat; 
+    background-position: fill; 
+}
+.background-page16 {
+    background-image: url('images/background16.jpg');
+    background-size: cover; 
+    background-attachment: scroll;
+    background-repeat: no-repeat; 
+    background-position: fill; 
+}
+.background-page17 {
+    background-image: url('images/background17.jpg');
+    background-size: cover; 
+    background-attachment: scroll;
+    background-repeat: no-repeat; 
+    background-position: fill; 
+}
+.background-page18 {
+    background-image: url('images/background18.jpg');
+    background-size: cover; 
+    background-attachment: scroll;
+    background-repeat: no-repeat; 
+    background-position: fill; 
+}
+.background-page19 {
+    background-image: url('images/background19.jpg');
+    background-size: cover; 
+    background-attachment: scroll;
+    background-repeat: no-repeat; 
+    background-position: fill; 
+}
+.background-page22 {
+    background-image: url('images/background22.jpg');
+    background-size: cover; 
+    background-attachment: scroll;
+    background-repeat: no-repeat; 
+    background-position: fill; 
+}
+.background-page23 {
+    background-image: url('images/background23.jpg');
+    background-size: cover; 
+    background-attachment: scroll;
+    background-repeat: no-repeat; 
+    background-position: fill; 
+}
+.background-page {
+    background-image: url('images/background19.jpg');
+    background-size: cover; 
+    background-attachment: scroll;
+    background-repeat: no-repeat; 
+    background-position: fill; 
+}
+
+body {
+    margin: 0; 
+    padding: 0; 
+}
+
+.transparent-rectangle {
+    position: absolute; 
+    top: 0;             
+    left: 0;            
+    width: 100%;       
+    height: 50%;    
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: -1; 
+}
+
+h1 {
+    font-size: 3.5em; 
+    margin-bottom: 20px;
+    color: #6b0000; 
+    text-shadow: 3px 3px 10px rgba(250, 249, 249, 0.7);
+}
+
+p {
+    font-size: 1.5em; 
+    line-height: 1.8; 
+    margin: 15px 0;
+}
+
+a {
+    display: inline-block;
+    padding: 15px 30px;
+    margin: 10px;
+    font-size: 1.2em;
+    text-decoration: none;
+    background-color: rgba(94, 0, 0, 0.8);
+    color: #fffefe;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+a:hover {
+    background-color: rgba(255, 255, 255, 0.9); 
+    color: #000;
+    transform: scale(1.05); 
+}
+
+footer {
+    margin-top: 50px;
+    font-size: 1.1em; 
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2.5em;
+    }
+
+    p {
+        font-size: 1.25em; 
+    }
+
+    a {
+        padding: 10px 20px; 
+        font-size: 1em; 
+    }
+
+}

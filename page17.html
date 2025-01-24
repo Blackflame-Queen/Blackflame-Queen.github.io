@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fortune or Folly: The Inner Sanctum</title>
+    <style>
+        body {
+            font-family: 'EB Garamond', serif;
+        }
+        .transparent-rectangle {
+            position: absolute; 
+            top: 0;             
+            left: 0;            
+            width: 100%;       
+            height: 154.5%;    
+            background-color: rgba(0, 0, 0, 0.5); 
+            z-index: -1; 
+        }
+        .container {
+            max-width: 500px; 
+            margin: auto;
+            padding: 20px;
+            background: rgb(228, 194, 0);
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            position: relative; 
+            z-index: 1; 
+            margin-top: 20px; 
+        }
+        textarea {
+            width: calc(100% - 20px); 
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px; 
+            box-sizing: border-box; 
+            font-size: 1.8em; 
+            color: black; 
+            font-family: 'EB Garamond', serif; 
+        }
+        input[type="text"], input[type="email"] {
+            width: calc(100% - 20px); 
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px; 
+            box-sizing: border-box; 
+            font-size: 1.8em; 
+            color: black; 
+            font-family: 'EB Garamond', serif; 
+        }
+        input[type="submit"] {
+            background-color: #550000;
+            color: white;
+            border: none;
+            font-size: 1.8em; 
+            padding: 10px 15px;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 100%;
+            font-family: 'EB Garamond', serif; 
+        }
+        input[type="submit"]:hover {
+            background-color: #c40303;
+        }
+        table {
+            width: 100%; 
+            margin: 20px 0;
+            border-collapse: collapse;
+            border: 2px solid rgb(0, 26, 77); 
+        }
+        th, td {
+            padding: 10px;
+            text-align: center;
+            border: 1px solid rgb(0, 26, 77); 
+            font-size: 1.8em; 
+            color: rgb(255, 255, 255); 
+        }
+        th {
+            background-color: rgb(0, 26, 77);
+        }
+    </style>
+</head>
+<body class="background-page17">
+    <div class="transparent-rectangle"></div>
+    <h1>Capturing the Dragon's Eye</h1>
+    <p>
+        "I love her, but I feel like we're on different wavelengths..."<br>
+        "If I just keep studying, I could become a dragon like her, and then we could be together!"<br>
+        You suggest that she should just speak in dragon-tongue to Griselda, seems pretty obvious.<br>
+        "Oh...maybe you're right... I probably have a tome on dragonic somewhere around here..."<br>
+        Sometimes we get so caught up in one notion, that we don’t consider the obvious, even when it's right in front of our faces.<br>
+        She looks almost disappointed for a moment, but finds a dragonic tome in the clutter and turns away to begin studying.<br>
+        "Thanks, and here, you can have this pile of gold, I'll contain it in this enchanted bag of holding."<br>
+        "Oh and this." She hands you an amulet with a red gem embedded in it. Then she opens a portal for you to leave.<br>
+        You return home with a bulging sack of treasure in tow and don the amulet. She didn't remark on it, but you begin to feel...different...<br>
+        What happens next? Who knows!
+    </p>
+    <p>
+        <a href="index.html">Thanks for Playing!</a>
+    </p>
+
+    <div class="container">
+        <h1>Story Suggestions</h1>
+
+        <form action="https://formspree.io/f/mbljpjzb" method="POST"> 
+            <input type="email" id="email" name="email" required placeholder="Your email address">
+
+            <table>
+                <tr>
+                    <th colspan="2">Rate the Story :)</th>
+                </tr>
+                <tr>
+                    <td>
+                        <label>
+                            <input type="radio" name="rating" value="1"> Terrible
+                        </label><br>
+                        <label>
+                            <input type="radio" name="rating" value="2"> Needs Work
+                        </label><br>
+                        <label>
+                            <input type="radio" name="rating" value="3"> Pretty Good
+                        </label><br>
+                        <label>
+                            <input type="radio" name="rating" value="4"> Great!
+                        </label><br>
+                    </td>
+                </tr>
+            </table>
+            <textarea id="feedback" name="feedback" rows="4" required placeholder="Feedback welcome here :)"></textarea>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+</body>
+</html>
